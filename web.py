@@ -7,7 +7,7 @@ st.write("""
 # Xác định tuổi thai bằng trí tuệ nhân tạo
 """)
 
-image = Image.open(r"C:\Users\tthlo\Downloads\tuoithai_web\Robot-AI-machine-learning-hero.jpg")
+image = Image.open(r"Robot-AI-machine-learning-hero.jpg")
 st.image(image, use_column_width=True, caption = 'AI')
 
 model = pickle.load(open('RF.pkl', 'rb'))
