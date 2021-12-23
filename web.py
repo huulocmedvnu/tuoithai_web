@@ -5,7 +5,7 @@ import pickle
 import numpy
 
 st.write("""
-# Xác định tuổi thai bằng trí tuệ nhân tạo
+# Xác định tuổi thai bằng Machine Learning
 """)
 
 image = Image.open(r"Robot-AI-machine-learning-hero.jpg")
