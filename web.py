@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 import pickle
+import numpy
 
 st.write("""
 # Xác định tuổi thai bằng trí tuệ nhân tạo
