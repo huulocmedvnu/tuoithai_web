@@ -16,7 +16,7 @@ model = pickle.load(open('RF.pkl', 'rb'))
 def get_user_input():
     HC = st.number_input('Chu vi vòng đầu')
     AC = st.number_input('Chu vi vòng bụng')
-    FL = st.number_input('Chieu dai xương đùi')
+    FL = st.number_input('Chiều dài xương đùi')
     
     user_data = {'HC': HC,
                  'AC': AC,
